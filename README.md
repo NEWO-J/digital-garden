@@ -6,7 +6,7 @@ Grade a note with Again/Hard/Good/Easy (SM-2 Algorithm), and the plugin schedule
 color-codes the whole vault by how overdue each note is.
 
 ## Features
-
+![Vault example](vault_example.png)
 - Grade notes from a bar at the top of each note. Each button shows the interval
   it will schedule.
 - File explorer notes are colored green/yellow/orange/red by how overdue they are.
