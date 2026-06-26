@@ -66,7 +66,7 @@
   border-left-color: var(--color-red, #e03131);
 }
 
-.digital-garden-bar {
+.note-decay-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -76,16 +76,16 @@
   background: var(--background-secondary);
   border-bottom: 1px solid var(--background-modifier-border);
 }
-.digital-garden-bar .rt-info {
+.note-decay-bar .rt-info {
   font-size: var(--font-ui-smaller);
   color: var(--text-muted);
   margin-right: auto;
 }
-.digital-garden-bar .rt-buttons {
+.note-decay-bar .rt-buttons {
   display: flex;
   gap: 6px;
 }
-.digital-garden-bar .rt-btn {
+.note-decay-bar .rt-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,29 +95,29 @@
   border-radius: var(--radius-s);
   border: 1px solid var(--background-modifier-border);
 }
-.digital-garden-bar .rt-btn .rt-grade {
+.note-decay-bar .rt-btn .rt-grade {
   font-weight: var(--font-semibold, 600);
 }
-.digital-garden-bar .rt-btn .rt-int {
+.note-decay-bar .rt-btn .rt-int {
   font-size: var(--font-ui-smaller);
   color: var(--text-muted);
 }
-.digital-garden-bar .rt-again {
+.note-decay-bar .rt-again {
   border-color: var(--color-red, #e03131);
 }
-.digital-garden-bar .rt-hard {
+.note-decay-bar .rt-hard {
   border-color: var(--color-orange, #e8820e);
 }
-.digital-garden-bar .rt-good {
+.note-decay-bar .rt-good {
   border-color: var(--color-green, #28a745);
 }
-.digital-garden-bar .rt-easy {
+.note-decay-bar .rt-easy {
   border-color: var(--color-blue, #4c8dff);
 }
-.digital-garden-bar .rt-btn:hover {
+.note-decay-bar .rt-btn:hover {
   background: var(--background-modifier-hover);
 }
-.digital-garden-bar .rt-btn:disabled {
+.note-decay-bar .rt-btn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
 }

@@ -10,7 +10,7 @@ import {
   formatInterval,
 } from "./status";
 
-const BAR_CLASS = "digital-garden-bar";
+const BAR_CLASS = "note-decay-bar";
 
 const GRADE_LABELS: Record<Grade, string> = {
   again: "Again",

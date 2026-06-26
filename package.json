@@ -1,5 +1,5 @@
 {
-  "name": "obsidian-digital-garden",
+  "name": "obsidian-note-decay",
   "version": "1.0.0",
   "description": "Tracks last_reviewed date and color-codes notes in the File Explorer.",
   "main": "main.js",

@@ -1,4 +1,4 @@
-# Digital Garden
+# Note Decay
 
 An Obsidian plugin for spaced-repetition review of your notes. Grade a note with
 Again/Hard/Good/Easy (SM-2), and the plugin schedules the next review and
@@ -41,7 +41,7 @@ npm run build
 ```
 
 Copy `main.js`, `manifest.json`, and `styles.css` into
-`<vault>/.obsidian/plugins/digital-garden/`.
+`<vault>/.obsidian/plugins/note-decay/`.
 
 ## License
 
