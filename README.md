@@ -18,6 +18,11 @@ color-codes the whole vault by how overdue each note is.
   it will schedule.
 - Grading cooldown to avoid accidentally spamming a note's interval.
 
+## Install
+= Open Obsidian
+- Enable community plugins - Go to Settings → Community plugins → Turn on community plugins
+= Install Note Decay - Click "Browse" → Search for "Note Decay" → Install
+
 ## Frontmatter
 
 Grading a note writes:
@@ -35,13 +40,6 @@ sr_lapses: 0
 
 Add color groups in Graph view settings matching `["review_status":"green"]` etc.,
 or let the plugin write the property and set them up once.
-
-## Build
-
-```
-npm install
-npm run build
-```
 
 Copy `main.js`, `manifest.json`, and `styles.css` into
 `<vault>/.obsidian/plugins/note-decay/`.
